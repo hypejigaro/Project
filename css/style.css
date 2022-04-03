@@ -1,5 +1,5 @@
 .header-div {
-    max-width: 1170px;
+    max-width: 1360px;
     width: 100%;
     margin: 0 auto;
 
@@ -42,9 +42,9 @@ ul {
 }
 /* header end*/
 section {
-    max-width: 1170px;
+    max-width: 1360px;
     width: 100%;
-    margin: 100px auto;
+    margin: 70px auto;
 }
 /* section 1*/
 .about {
@@ -58,6 +58,7 @@ section {
 }
 .about-text h4 {
     font-size: 14px;
+    font-weight: bold;
     color: #5863F8;
 }
 .about-text h2 {
@@ -82,4 +83,92 @@ section {
 }
 .read-more img {
     margin-right: ;
+}
+/*section 1 end*/
+/*section 2*/
+.about-us-container {
+    background-image: url(../imgs/about-us-banner.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+.about-us-container > div {
+    max-width: 1088px;
+    width: 100%;
+    margin: auto;
+}
+.about-us-container h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.about-us-container h2 {
+    font-size: 42px;
+    font-weight: 900;
+    color: white;
+    max-width: 376px;
+    width: 100%;
+}
+.hotel-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+.cards {
+    width: 260px;
+    height: 260px;
+    background-color: white;
+    padding: 25px 0;
+}
+.cards h5 {
+    width: 155px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 15px auto;
+}
+.cards p {
+    width: 220px;
+    color: #B1B1B1;
+    margin: 0 auto;
+}
+.card-img {
+    width: 59px;
+    height: 59px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+.card-img > img {
+    margin: auto;
+}
+/*section 3*/
+.section-3-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    height: 487px;
+}
+.costumer-wrapper {
+    margin: auto;
+    max-width: 450px;
+    width: 100%;
+}
+.costumer-wrapper h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.costumer-wrapper h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+.costumer-wrapper div, img, h6  {
+   display: flex;
+   align-items: center;
+   margin: 20px 17px 20px 0;
+}
+.costumer-wrapper p {
+    max-width: 352px;
 }
