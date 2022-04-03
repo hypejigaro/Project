@@ -139,6 +139,7 @@ section {
     background-color: #5863F8;
     border-radius: 50%;
     margin: 15px auto;
+    display: flex;
 }
 .card-img > img {
     margin: auto;
