@@ -101,6 +101,7 @@ section {
     display: flex;
     align-items: center;
     margin-right: 20px;
+    background-color: #f3f3f3;
 }
 
 .item_image{
@@ -116,7 +117,7 @@ section {
     width: 60px;
     height: 190px;
     background-color: #5863F8;
-    background-image: url(../imgs/2ndpage/arrow.png);
+    background-image: url(../imgs/2ndpage/arrow.svg);
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -158,6 +159,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f3f3f3;
 }
 
 .in_text{
@@ -189,7 +191,7 @@ section {
     align-items: center;
     cursor: pointer;
 }
-
+ 
 /* 4rd section (photos) */
 
 .photos_container{
@@ -211,7 +213,7 @@ section {
     width: 60px;
     height: 60px;
     position: absolute;
-    background-image: url(../imgs/2ndpage/arrow.png);
+    background-image: url(../imgs/2ndpage/arrow.svg);
     background-color: #5863F8;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,7 +225,7 @@ section {
     position: absolute;
     width: 60px;
     height: 60px;
-    background-image: url(../imgs/2ndpage/arrow.png);
+    background-image: url(../imgs/2ndpage/arrow.svg);
     background-color: #5863F8;
     background-position: center;
     background-repeat: no-repeat;
@@ -311,19 +313,19 @@ section {
 .icon{
     width:35px;
     height: 35px;
-    background-image: url(../imgs/2ndpage/fb.png);
+    background-image: url(../imgs/2ndpage/fb.svg);
     margin-right: 10px;
 }
 .icon2{
     width:35px;
     height: 35px;
-    background-image: url(../imgs/2ndpage/twit.png);
+    background-image: url(../imgs/2ndpage/twitter.svg);
     margin-right: 10px;
 }
 .icon3{
     width:35px;
     height: 35px;
-    background-image: url(../imgs/2ndpage/google.png);
+    background-image: url(../imgs/2ndpage/google.svg);
 }
 .two_header{
     color: white;
@@ -335,7 +337,7 @@ section {
     cursor: pointer;
 }
 .icon_cont{
-    background-image: url(../imgs/2ndpage/mail.png);
+    background-image: url(../imgs/2ndpage/mail.svg);
     width: 18px;
     height: 16px;
     margin-right: 10px;
@@ -343,7 +345,7 @@ section {
     cursor: pointer;
 }
 .icon_cont2{
-    background-image: url(../imgs/2ndpage/phone.png);
+    background-image: url(../imgs/2ndpage/phone.svg);
     width: 18px;
     height: 18px;
     margin-right: 10px;
@@ -351,7 +353,7 @@ section {
     cursor: pointer;
 }
 .icon_cont3{
-    background-image: url(../imgs/2ndpage/map.png);
+    background-image: url(../imgs/2ndpage/map.svg);
     width: 18px;
     height: 18px;
     margin-right: 10px;

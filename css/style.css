@@ -173,3 +173,45 @@ section {
 .costumer-wrapper p {
     max-width: 352px;
 }
+/*section 4*/
+.section-4 {
+    width: 1088px;
+}
+.Restaurant-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.Restaurant-title-2 {
+    font-size: 42px;
+    font-weight: 700;
+    width: 460px;
+}
+.reataurant-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-desert-wrapper {
+    width: 536px;
+    display: flex;
+    align-items: center;
+}
+.food-desert-wrapper h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.food-desert-wrapper p {
+    width: 240px;
+    font-size: 14px;
+    color: #B1B1B1;
+}
+.item_end{
+    width: 60px;
+    height: 190px;
+    background-color: #5863F8;
+    background-image: url(../imgs/2ndpage/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
