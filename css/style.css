@@ -81,9 +81,7 @@ section {
     font-size: 14px;
     color: white;
 }
-.read-more img {
-    margin-right: ;
-}
+
 /*section 1 end*/
 /*section 2*/
 .about-us-container {
@@ -254,4 +252,217 @@ section {
     width: 190px;
     font-size: 14px;
     color: #B1B1B1;
+}
+
+
+/* footer */
+/* 4rd section (photos) */
+
+.photos_container{
+    width: 1360px;
+    height: 350px;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+}
+.photos_item{
+    width: 350px;
+    height: 350px;
+    background-image: url(../imgs/2ndpage/image.png);
+}
+.arrow_left{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(../imgs/2ndpage/arrow.svg);
+    background-color: #5863F8;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    margin-left: 70px;
+}
+.arrow_right{
+    cursor: pointer;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../imgs/2ndpage/arrow.svg);
+    background-color: #5863F8;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 70px;
+}
+
+/* footer */
+.footer{
+    width: 1360px;
+    margin: 0px auto;
+    background-color: #121212;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_container{
+    width: 1000px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.footer_down{
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    position: relative;
+}
+
+.footer_up{
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.down_text2{
+    color: #5863F8;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+
+.blockone{
+    margin-right: 150px;
+    margin-left: -100px;
+}
+
+.blockthree{
+    margin-left: 70px;
+}
+
+.blockfour{
+    margin-left: 70px;
+}
+
+.oneheader{
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.fouritem{
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.onedesc{
+    color: #B1B1B1;
+    max-width: 260px;
+}
+.iconcont{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    margin-top: 30px;
+}
+.icon{
+    width:35px;
+    height: 35px;
+    background-image: url(../imgs/2ndpage/fb.svg);
+    margin-right: 10px;
+}
+.icon2{
+    width:35px;
+    height: 35px;
+    background-image: url(../imgs/2ndpage/twitter.svg);
+    margin-right: 10px;
+}
+.icon3{
+    width:35px;
+    height: 35px;
+    background-image: url(../imgs/2ndpage/google.svg);
+}
+.two_header{
+    color: white;
+    margin-bottom: 20px;
+}
+.twoitem{
+    margin-bottom: 10px;
+    color: #5863F8;
+    cursor: pointer;
+}
+.icon_cont{
+    background-image: url(../imgs/2ndpage/mail.svg);
+    width: 18px;
+    height: 16px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.icon_cont2{
+    background-image: url(../imgs/2ndpage/phone.svg);
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.icon_cont3{
+    background-image: url(../imgs/2ndpage/map.svg);
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+.aabout{
+    width: 1100px;
+    height: 150px;
+    margin: 0px auto;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+.aabout2{
+    width: 1100px;
+    height: 150px;
+    margin: 0px auto;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+.aabout_text{
+    color: #5863F8;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.desc_text{
+    font-size: 38px;
+    max-width: 350px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.desc_text2{
+    font-size: 38px;
+    max-width: 550px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
