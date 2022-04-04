@@ -215,3 +215,43 @@ section {
     background-repeat: no-repeat;
     cursor: pointer;
 }
+/*section 5*/
+.section-5 {
+    width: 1088px;
+}
+.section-5 h5 {
+    font-weight: bold;
+}
+.section-5 h2 {
+    width: 460px;
+    font-size: 42px;
+    font-weight: 700;
+}
+.cards-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 352px;
+    height: 360px;
+}
+.cards a {
+    font-size: 14px;
+    font-weight: bold;
+}
+.cards h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.cards p {
+    margin-top: 8px;
+    width: 190px;
+    font-size: 14px;
+    color: #B1B1B1;
+}
